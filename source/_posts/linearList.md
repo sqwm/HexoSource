@@ -1,10 +1,11 @@
 ---
 title: 【数据结构】线性表
+date: 2019-03-06 18:46:04
 tags: List
 categories: 数据结构
 toc: true
 comments: true
-thumbnail: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1548580411500&di=d3bc8a8fb160d662bf3ef1d14ff4ae37&imgtype=0&src=http%3A%2F%2Fs2.cdn.deahu.com%2Fshow%2Flfile%2F7E73DBAD83122DAF20DFDD33CF1E9C8D.jpg'
+thumbnail: false
 ---
 
 ---

@@ -1,10 +1,11 @@
 ---
 title: 【数据结构】数组、矩阵、和广义表
+date: 2019-03-01 18:46:04
 comments: true
 toc: true
 tags: Array
 categories: 数据结构
-thumbnail: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1549179243&di=d0595deef1085246079f16279e96f2ba&imgtype=jpg&er=1&src=http%3A%2F%2Fsource.aliog.com%2Fwp-content%2Fuploads%2F2015%2F05%2F20150521_555d7178d1052.png'
+thumbnail: false
 ---
 
 
