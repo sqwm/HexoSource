@@ -3,7 +3,7 @@ title: Hexo用MathJax渲染数学公式
 date: 2019-04-30 17:24:31
 tags: Hexo
 categories: 教程 
-thumbnail: 'https://cdn-images-1.medium.com/max/1200/1*oGKSLAyukkOr-1bZbMY0Cg.png'
+thumbnail: false
 comments: true
 toc: true
 disqusId: ccyhweb
