@@ -3,7 +3,7 @@ title: 【算法】全排列问题
 date: 2019-03-13 12:32:26
 tags: Algorithm
 categories: 算法
-thumbnail: "http://pic.5577.com/up/2014-8/20148148468.jpg"
+thumbnail: false
 comments: 
 toc: true
 ---
