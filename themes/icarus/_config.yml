@@ -1,11 +1,11 @@
 # Version of the Icarus theme that is currently used
 version: 2.3.0
 # Path or URL to the website's icon
-favicon: /images/favicon.ico
+favicon: /images/flyingfish.ico
 # Path or URL to RSS atom.xml
 rss: /atom.xml
 # Path or URL to the website's logo to be shown on the left of the navigation bar or footer
-logo: /images/gen.svg
+logo: /images/favicon.svg
 # Open Graph metadata
 # https://hexo.io/docs/helpers.html#open-graph
 open_graph:
@@ -65,14 +65,14 @@ search:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Comment-Plugins
 comment:
     # Name of the comment plugin
-    #type: valine
-    #app_id: oR2IQXqpGEFy4GHNDgdmfSMR-gzGzoHsz
-    #app_key: hwYfVGzICBlXGiokUXaNqJsx
-    #notify: true
-    #verify: true
-    #placeholder:
-    type: disqus
-    shortname: ccyhweb 
+    type: valine
+    app_id: oR2IQXqpGEFy4GHNDgdmfSMR-gzGzoHsz
+    app_key: hwYfVGzICBlXGiokUXaNqJsx
+    notify: true
+    verify: true
+    placeholder: Tell me something !!!
+    #type: disqus
+    #shortname: ccyhweb 
 # Donation entries
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
