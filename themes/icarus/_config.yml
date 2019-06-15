@@ -179,21 +179,6 @@ widgets:
         # Links to be shown in the links widget
         links:
         
-    - type: todo # 待办事项 Widget（啊哈呵嗨）
-        position: right
-        tasks:
-          About 页面大修:
-            done: false # 默认为false，即未完成
-            type: 1 # 0代表normal 1代表urgent 默认为0，即normal
-          TOC 滚动更新位置:
-            done: true
-            type: 0
-          设计 Logo SVG:
-            done: false
-            type: 0
-          todo 小组件大小单位用 rem:
-            done: false
-            type: 0
 # Other plugin settings
 plugins:
     # Enable page animations
