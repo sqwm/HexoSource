@@ -85,7 +85,7 @@ donate:
         # Donation entry name
         type: wechat
         # Qrcode image URL
-        qrcode: '/images/yjtp.png'
+        qrcode: '/images/wechatpay.png'
     -
 # Share plugin settings
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Share-Plugins
@@ -124,7 +124,7 @@ widgets:
         # Email address for the Gravatar to be shown in the profile widget
         gravatar: 
         # Path or URL for the follow button
-        follow_link: 'https://github.com/YHCClin'
+        follow_link: 'https://blog.csdn.net/Marvine'
         # Links to be shown on the bottom of the profile widget
         social_links:
             Github:
