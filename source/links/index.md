@@ -5,4 +5,4 @@ layout: page
 comment: true
 ---
 
-<div align="center">欢迎交流，留下你的博客链接在评论中</div>
+<div align="center">联系我，交换博客链接</div>
