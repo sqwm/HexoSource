@@ -226,7 +226,7 @@ providers:
 cnzz: cnzz_stat_icon_1277370683
 
 live2d:
-  enable: true
+  enable: false
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
