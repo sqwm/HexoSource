@@ -21,9 +21,11 @@ body, input, select, textarea
 button
     font-family: family-sans
     background-color: #00a99d
+
 a {
     color: #00a99d
 }
+
 @media screen and (min-width: screen-widescreen)
     .is-1-column .container
     .is-2-column .container
@@ -138,10 +140,16 @@ img.thumbnail
 
 .pagination
     .pagination-link:not(.is-current), .pagination-previous, .pagination-next
-        background: white
+        background-color: #00a99d
         border: none
     .pagination-link, .pagination-previous, .pagination-next
-        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05)
+        box-shadow: 0 4px 10px rgba(0, 169, 157, 0.05)
+        .is-current {
+            background-color: #00A99d;
+            border-color: #00a99d;
+            color: #fff;
+        }
+
 
 .post-navigation
     justify-content: space-around
