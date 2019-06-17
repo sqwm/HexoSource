@@ -5,7 +5,7 @@
 # Site
 title: 飞鱼の博客
 subtitle: 
-description: 越努力 · 越幸运
+description: 在路上...
 keywords: 飞鱼的博客
 author: AokiLin
 language: zh-CN
@@ -27,7 +27,7 @@ archive_dir: archives
 category_dir: categories
 code_dir: downloads/code
 i18n_dir: :lang
-skip_render:
+skip_render: source/dontclick
 
 # Writing
 new_post_name: :title.md # File name of new posts

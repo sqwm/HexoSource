@@ -31,7 +31,7 @@ navbar:
         关于我: /about
         友链: /links
         CSDN: "https://blog.csdn.net/Marvine"
-        别点我: "http://www.tripwiremagazine.com/wp-content/uploads/images/stories/Articles/9_Funniest_JavaScript_effects/Unclosable%20Window.html"
+        别点我: /dontclick
         
     # Navigation bar links to be shown on the right
     links:
