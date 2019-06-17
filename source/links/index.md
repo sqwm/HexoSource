@@ -12,12 +12,7 @@ comments: true
 
 # 友链列表
 
----
-
-* 以下友链不分先后顺序，欢迎访问
-
----
-
+<div align="center">以下友链不分先后顺序，欢迎访问</div>
 <div align="center">
 	<table>
 		<thead>
