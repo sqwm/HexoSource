@@ -30,6 +30,7 @@ navbar:
         相册: /photos
         关于我: /about
         友链: /links
+        别点我: /dontclick
         
     # Navigation bar links to be shown on the right
     links:
