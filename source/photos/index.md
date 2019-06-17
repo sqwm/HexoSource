@@ -1,7 +1,7 @@
 ---
 title: 做个出海远航的人
 date: 2019-01-27 20:29:52
-layout: page
+layout: false
 comment: false
 ---
 
