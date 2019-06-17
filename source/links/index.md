@@ -4,11 +4,11 @@ date: 2019-01-27 20:29:52
 layout: page
 comments: true
 ---
+
 # 互换友链
 
 <body>
 <div align="center">如果您也有自己的博客站点，并且想要互换友链，可以给我留言,并注明贵站的类型</div>
-<div align="center">以下友链不分先后顺序，欢迎访问</div>
 <div align="center">
 	<table>
 		<thead>
@@ -51,4 +51,5 @@ comments: true
 	</table>
 </div>
 </body>
+
 ---
