@@ -24,7 +24,7 @@ comment: false
 		background-color: transparent;
 	}
 </style>
-<span class="heimu" title="你知道的太多了">你知道的太多了。</span>
+<span class="heimu" title="你知道的太多了"></span>
 
 <p style="line-height: 18px; font-size: 18px; font-family: times;">
 <script type="text/javascript">
