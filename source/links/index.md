@@ -7,8 +7,7 @@ comments: true
 
 # 互换友链
 
-<body>
-<div align="center">如果您也有自己的博客站点，并且想要互换友链，可以给我留言,并注明贵站的类型</div>
+<h2 align="center">如果您也有自己的博客站点，并且想要互换友链，可以给我留言,并注明贵站的类型</h2>
 <div align="center">
 	<table>
 		<thead>
@@ -25,31 +24,30 @@ comments: true
 				<td>技术</td>
 			</tr>
 			<tr>
-				<td>Blog_1</td>
+				<td>虚位以待</td>
 				<td><a href="https://google.com" target="_blank" rel="noopener">https://www.ccyh.xyz</a></td>
 				<td>技术</td>
 			</tr>
 			<tr>
-				<td>blog</td>
+				<td>虚位以待</td>
 				<td><a href="https://google.com" target="_blank" rel="noopener">https://google.com</a></td>
-				<td>技术</td>
+				<td>随想</td>
 			</tr>
 			<tr>
-				<td>Google</td><td><a href="https://w3c.ink/" target="_blank" rel="noopener">https://google.com</a></td>
+				<td>虚位以待</td><td><a href="https://w3c.ink/" target="_blank" rel="noopener">https://google.com</a></td>
 				<td>web与硬件</td>
 			</tr>
 			<tr>
-				<td>blog</td>
+				<td>虚位以待</td>
 				<td><a href="http://google.com" target="_blank" rel="noopener">https://google.com</a></td>
-				<td>技术</td>
+				<td>摄影</td>
 			</tr>
 			<tr>
-				<td>博客</td>
+				<td>虚位以待</td>
 				<td><a href="https://baidu.com" target="_blank" rel="noopener">https://baidu.com</a></td><td>技术</td>
 			</tr>
 		</tbody>
 	</table>
 </div>
-</body>
 
 ---
