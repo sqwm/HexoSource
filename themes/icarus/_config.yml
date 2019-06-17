@@ -28,7 +28,7 @@ navbar:
         分类: /categories
         标签: /tags
         关于我: /about
-        友情链接: /links
+        友链: /links
         
     # Navigation bar links to be shown on the right
     links:
