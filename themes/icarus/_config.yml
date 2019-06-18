@@ -31,7 +31,7 @@ navbar:
         关于我: /about
         友链: /links
         CSDN: "https://blog.csdn.net/Marvine"
-        别点我·有毒: "http://www.tripwiremagazine.com/wp-content/uploads/images/stories/Articles/9_Funniest_JavaScript_effects/Unclosable%20Window.html"
+        别点·有毒: "http://www.tripwiremagazine.com/wp-content/uploads/images/stories/Articles/9_Funniest_JavaScript_effects/Unclosable%20Window.html"
         
     # Navigation bar links to be shown on the right
     links:
@@ -113,6 +113,12 @@ sidebar:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Widgets/
 widgets:
     -
+        #music
+        # Widget name
+        type: toc
+        # Where should the widget be placed, left or right
+        position: left
+    -
         # Widget name
         type: profile
         # Where should the widget be placed, left or right
@@ -143,12 +149,7 @@ widgets:
             RSS:
                 icon: fas fa-rss
                 url: /
-    -
-        #music
-        # Widget name
-        type: toc
-        # Where should the widget be placed, left or right
-        position: left
+    
     -
         # Widget name
         type: category
