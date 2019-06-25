@@ -95,7 +95,9 @@ donate:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Share-Plugins
 share:
     # Share plugin name
-    type: sharejs
+    # type: sharejs
+    type: addthis
+    install_url: //s7.addthis.com/js/300/addthis_widget.js#pubid=ra-5d1224aee50c94ed
 # Sidebar settings.
 # Please be noted that a sidebar is only visible when it has at least one widget
 sidebar:
