@@ -198,4 +198,10 @@ int main()
 
 ---
 
+## 运行结果
+
+![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/leetcode295.png)
+
+---
+
 #### end
