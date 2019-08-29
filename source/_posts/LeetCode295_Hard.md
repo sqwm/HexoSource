@@ -76,18 +76,31 @@ Condition 2.保证大顶堆中的元素小于等于小顶堆中的任何元素
 #### case 2:
 * 如果大顶堆元素个数小于小顶堆的元素个数。此时，将待插入元素与两堆堆顶比较:
 * 若小于等于Bigger.top则直接插入Bigger中；
-* ![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/case2.png)
-* 若大于smaller.top则为了保证条件1,需将smaller中的最小值（根）转存至Bigger中。
-* ![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/case2_11.png)
 
+<center>
+![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/case2.png)
+</center>
+
+* 若大于smaller.top则为了保证条件1,需将smaller中的最小值（根）转存至Bigger中。
+
+<center>
+![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/case2_11.png)
+</center>
 
 ---
 #### case 3:
 * 如果大顶堆的元素个数大于小顶堆的元素个数。此时，将待插入元素与两堆堆顶比较：
 * 若其大于等于Smaller.top则直接插入Smaller中；
-* ![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/case3_1.png)
+
+<center>
+![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/case3_1.png)
+</center>
+
 * 若小于Bigger.top则为了保证条件1，需将Bigger中的最大元素值（根）转存至Smaller中。
-* ![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/case3_2.png)
+
+<center>
+![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/case3_2.png)
+</center>
 
 ---
 
@@ -200,7 +213,9 @@ int main()
 
 ## 运行结果
 
+<center>
 ![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/%5BLeetcode295_hard%5DMedianFinder/leetcode295.png)
+</center>
 
 ---
 
