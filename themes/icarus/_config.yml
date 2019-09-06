@@ -31,7 +31,6 @@ navbar:
         关于我: /about
         友链: /links
         CSDN: "https://blog.csdn.net/Marvine"
-        别点·有毒: "http://www.tripwiremagazine.com/wp-content/uploads/images/stories/Articles/9_Funniest_JavaScript_effects/Unclosable%20Window.html"
         
     # Navigation bar links to be shown on the right
     links:
