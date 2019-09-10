@@ -16,7 +16,7 @@ comment: false
 ---
 
 <div align="center">
-<img src="./IMG_1932.JPG" alt="" align="certer" title="FIGHTING" />
+<img src="https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/cat.jpg" alt="" align="certer" title="FIGHTING" />
 </div>
 
 ---

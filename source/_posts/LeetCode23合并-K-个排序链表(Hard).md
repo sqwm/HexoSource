@@ -76,7 +76,7 @@ II. 从堆中取出最小元素（堆顶）并更新lists数组与堆
 ![更新堆](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/leetcode23/push1.PNG)
 </center>
 
-III. 循环II（1、2、3）知道堆为空。
+III. 循环II（1、2、3）直到堆为空。
 
 ---
 
