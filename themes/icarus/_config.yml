@@ -127,7 +127,7 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Author name to be shown in the profile widget
-        author: YH · Lin
+        author: lyh
         # Title of the author to be shown in the profile widget
         author_title: 人在蒙古·刚下航母
         # Author's current location to be shown in the profile widget
