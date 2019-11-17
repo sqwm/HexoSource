@@ -1,5 +1,5 @@
 ---
-title: DisjointSet_并查集
+title: 并查集
 date: 2019-09-23 14:07:30
 tags: djset
 categories: 数据结构 
