@@ -9,11 +9,13 @@ toc: true
 disqusId: ccyhweb
 ---
 
-<!-- more -->
+
 
 ## 强连通分量简介
 
 &emsp;&emsp;有向图强连通分量：在有向图G中，如果两个顶点$V_i, V_j$ 间（vi>vj）有一条从$V_i$到$V_j$的有向路径，同时还有一条从$V_j$到$V_i$的有向路径，则称两个顶点强连通(strongly connected)。如果有向图G的每两个顶点都强连通，称G是一个强连通图。有向图的极大强连通子图，称为强连通分量(strongly connected components)。
+
+<!-- more -->
 
 &emsp;&emsp;比如下图：
 ![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan/%E8%BF%9E%E9%80%9A%E5%9B%BE.PNG)
