@@ -82,7 +82,7 @@ donate:
         # Donation entry name
         type: alipay
         # Qrcode image URL
-        qrcode: '/images/honbao.PNG'
+        qrcode: ''
     -
         # Donation entry name
         type: wechat
