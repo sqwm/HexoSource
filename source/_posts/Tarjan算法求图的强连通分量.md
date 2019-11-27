@@ -18,7 +18,10 @@ disqusId: ccyhweb
 <!-- more -->
 
 &emsp;&emsp;比如下图：
+
+<center>
 ![](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan/%E8%BF%9E%E9%80%9A%E5%9B%BE.PNG#pic_center)
+</center>
 
 ---
 
@@ -27,12 +30,16 @@ disqusId: ccyhweb
 **算法思路：**
 &emsp;首先引入两个数组 dfn[maxn] 和 low[maxn], 其中 dfn[i] 表示编号为 i 的节点被访问时的时间戳；low[i] 表示从编号为 i 的节点可追溯到（到达）的最早被访问到的节点的时间戳。下面通过上述例子跑一遍算法，描绘出每个时刻的DFS树状态和栈中的内容。
 
+<center>
+
 ![第一步](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan/1.PNG#pic_center)
 ![第二步](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan/2.PNG#pic_center)
 ![第三步](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan/3.PNG#pic_center)
 ![第四步](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan/4.PNG#pic_center)
 ![第五步](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan/5.PNG#pic_center)
 ![第六步](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan/6.PNG#pic_center)
+
+</center>
 
 &emsp;由上述过程可得该图由三个连通分量：{5}，{4}，{2,3,1,0}
 
@@ -41,6 +48,7 @@ disqusId: ccyhweb
 ## 算法实现：
 > 代码中有详细注释，可结合上述图例分析
 > 
+
 ```c++
 #include <iostream>
 #include <vector>
@@ -113,7 +121,6 @@ void Ssc::Tarjan(int root)
     }
 }
 
-
 int main()
 {
     vector<vector<int>> graph = {
@@ -141,7 +148,11 @@ int main()
 }
 ```
 
+
 ---
 ## 运行结果
 
+
+<center>
 ![Result](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan/Tarjan.PNG#pic_center)
+</center>
