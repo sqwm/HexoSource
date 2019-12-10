@@ -27,7 +27,6 @@ navbar:
         归档: /archives
         分类: /categories
         标签: /tags
-        相册: /photos/index.html
         友链: /links
         CSDN: "https://blog.csdn.net/Marvine"
         
@@ -232,7 +231,7 @@ providers:
 cnzz: cnzz_stat_icon_1277370683
 
 live2d:
-  enable: false
+  enable: true
   scriptFrom: local
   pluginRootPath: live2dw/
   pluginJsPath: lib/
@@ -272,8 +271,8 @@ copyright:
     enable: true
     # img: http://ostu98x74.bkt.clouddn.com/copyright/copyright.png #版权信息图片
     site: http://www.inicb.com  #版权信息所属网址
-    siteName: 飞鱼の博客 #版权信息网站名字
-    siteAuthor: 'YH · Lin' #版权归属人
+    siteName: CODEHUB #版权信息网站名字
+    siteAuthor: 'lyh' #版权归属人
 
 tidio:
     enable: true
