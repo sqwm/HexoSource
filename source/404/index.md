@@ -8,9 +8,20 @@ permalink: /404
 <html>
     <head>
          <meta charset="UTF-8" />
-         <title>万恶の 404</title>                                                                                                                                        
+         <title>万恶の 404</title>
+         <link href="stylesheet" type="text/css" href="style.css">
     </head>
     <body>
-         <script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" homePageName="返回博客首页" homePageUrl="https://www.ccyh.xyz"></script>
+        <div class="noise"></div>
+        <div class="overlay"></div>
+        <div class="terminal">
+            <h1>Error <span class="errorcode">404</span></h1>
+            <p class="output">The page you are looking for might have been removed, had its name changed or is temporarily unavailable.</p>
+            <p class="output">Please try to <a href="#1">go back</a> or <a href="#2">return to the homepage</a>.</p>
+            <p class="output">Good luck.</p>
+        </div>
 	</body>
 </html>
+<!-- 
+<script type="text/javascript" src="//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js" homePageName="返回博客首页" homePageUrl="https://www.ccyh.xyz"></script>
+ -->
