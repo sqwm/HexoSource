@@ -152,6 +152,7 @@ widgets:
             RSS:
                 icon: fas fa-rss
                 url: /
+                
     -
         # Widget name
         type: links
