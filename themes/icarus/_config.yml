@@ -71,6 +71,8 @@ comment:
      app_key: 'hwYfVGzICBlXGiokUXaNqJsx'
      notify: true
      verify: true
+     avatar: 'retro'
+     visitor: true
      placeholder: Type something slowly...
     # type: disqus
     # shortname: ccyhweb 
