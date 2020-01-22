@@ -152,7 +152,13 @@ widgets:
             RSS:
                 icon: fas fa-rss
                 url: /
-    
+    -
+        # Widget name
+        type: links
+        # Where should the widget be placed, left or right
+        position: left
+        # Links to be shown in the links widget
+        links: 
     -
         type: music
         position: right
@@ -182,12 +188,6 @@ widgets:
         # Where should the widget be placed, left or right
         position: right
     -
-        # Widget name
-        type: links
-        # Where should the widget be placed, left or right
-        position: left
-        # Links to be shown in the links widget
-        links: 
         
 # Other plugin settings
 plugins:
