@@ -16,7 +16,7 @@ common:
 widget:
     follow: '关注我'
     recents: '最新文章'
-    links: '链接'
+    links: '音乐'
     tag_cloud: '标签云'
     catalogue: '目录'
 article:
@@ -26,9 +26,9 @@ article:
     about: '大约'
     words: '个字'
 donate:
-    title: '喜欢这篇文章？打赏一下作者吧'
-    alipay: '支付宝'
-    wechat: '微信'
+    title: '喜欢这篇文章？点个赞再走吧'
+    alipay: 'Alipay'
+    wechat: 'WeChatPay'
 plugin:
     backtotop: '回到顶端'
 search:
