@@ -156,7 +156,6 @@ widgets:
     -
         type: links
         position: right
-        links: 
     -
         # Widget name
         type: category
