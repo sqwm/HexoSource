@@ -156,6 +156,7 @@ widgets:
     -
         type: links
         position: right
+        links: 
     -
         # Widget name
         type: category
@@ -187,7 +188,6 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Links to be shown in the links widget
-        links:
         
 # Other plugin settings
 plugins:
