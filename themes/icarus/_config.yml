@@ -154,6 +154,9 @@ widgets:
                 url: /
     
     -
+        type: music
+        position: right
+    -
         # Widget name
         type: category
         # Where should the widget be placed, left or right
