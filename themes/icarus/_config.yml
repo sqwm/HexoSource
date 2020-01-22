@@ -154,7 +154,7 @@ widgets:
                 url: /
     
     -
-        type: music
+        type: links
         position: right
     -
         # Widget name
@@ -183,7 +183,7 @@ widgets:
         position: right
     -
         # Widget name
-        type: links
+        type: music
         # Where should the widget be placed, left or right
         position: left
         # Links to be shown in the links widget
