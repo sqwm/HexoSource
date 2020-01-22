@@ -66,14 +66,14 @@ search:
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Comment-Plugins
 comment:
     # Name of the comment plugin
-    # type: valine
-    # app_id: oR2IQXqpGEFy4GHNDgdmfSMR-gzGzoHsz
-    # app_key: hwYfVGzICBlXGiokUXaNqJsx
-    # notify: true
-    # verify: true
-    # placeholder: Type something slowly...
-     type: disqus
-     shortname: ccyhweb 
+     type: valine
+     app_id: oR2IQXqpGEFy4GHNDgdmfSMR-gzGzoHsz
+     app_key: hwYfVGzICBlXGiokUXaNqJsx
+     notify: true
+     verify: true
+     placeholder: Type something slowly...
+    # type: disqus
+    # shortname: ccyhweb 
 # Donation entries
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Donation/
 donate:
