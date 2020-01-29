@@ -1,5 +1,5 @@
 ---
-title: DidjointSet
+title: DisjointSet
 date: 2020-1-29 14:07:30
 tags: 并查集
 categories: 数据结构 
