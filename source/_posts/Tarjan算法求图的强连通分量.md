@@ -1,10 +1,10 @@
 ---
-title: Tarjan算法求图的强连通分量
+title: 【图解算法】Tarjan算法求图的强连通分量
 date: 2019-11-21 21:58:23
 tags: Algorithm
 categories: 算法
-thumbnail: 
-comments: 
+thumbnail: "https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/Tarjan%E7%AE%97%E6%B3%95%E6%B1%82%E5%9B%BE%E7%9A%84%E5%BC%BA%E8%BF%9E%E9%80%9A%E5%88%86%E9%87%8F/20200129092751822.png"
+comments:
 toc: true
 disqusId: ccyhweb
 ---

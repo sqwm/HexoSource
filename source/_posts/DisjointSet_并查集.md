@@ -3,7 +3,7 @@ title: DisjointSet
 date: 2020-1-29 14:07:30
 tags: 并查集
 categories: 数据结构 
-thumbnail: "https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/DisjointSet_%E5%B9%B6%E6%9F%A5%E9%9B%86/20200129090816470.png"
+thumbnail: "https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/DisjointSet_%E5%B9%B6%E6%9F%A5%E9%9B%86/20200129092223020.png"
 comments: 
 toc: true
 disqusId: ccyhweb
