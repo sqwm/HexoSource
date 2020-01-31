@@ -136,8 +136,8 @@ void flipColor(RBNode *node)
 }
 ```
 
-### 插入操作：
----
+**插入操作：**
+
 有了上述基本操作的实现基础，我们来研究插入操作的实现。插入按插入位置分三种情况：
 
 <center>
@@ -281,3 +281,8 @@ RBNode* insert(RBNode *&root, KeyType key, ValueType value)
 	return root;
 }
 ```
+
+---
+#### 参考
+> [《算法》 第四版 - 红黑树](https://algs4.cs.princeton.edu/33balanced/) - Robert Sedgewick
+> [《我画了20张图给女朋友讲清楚红黑树》](https://mp.weixin.qq.com/s/ccXqujooT4eNvptmJKlmDA) - 程序员小吴
