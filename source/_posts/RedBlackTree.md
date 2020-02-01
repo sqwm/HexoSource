@@ -174,8 +174,8 @@ RBNode* insert(RBNode *&root, KeyType key, ValueType value)
 #define RED true
 #define BLACK false
 using namespace std;
-
-template <KeyType, ValueType>
+#define KeyType int
+#define ValueType string
 class RBNode {
 
 	friend bool isRed(RBNode *node);
@@ -244,7 +244,7 @@ RBNode* rightRotate(RBNode *node)
 	node -> N     = 1 + size(node->left) + size(node->right);
 	return temp;	// 返回重置父节点指针
 }
-template <KeyType>
+
 RBNode* search(RBNode* root, KeyType key)
 {
 	if(root == NULL) return NULL;
@@ -262,24 +262,25 @@ RBNode* search(RBNode* root, KeyType key)
 	}
 }
 
-template <KeyType, ValueType>
+
 RBNode* insert(RBNode *&root, KeyType key, ValueType value)
 {
 	if(root == NULL)
 		return new RBNode(key, value, 1, RED);
 
-	if(key < root->key) 	 	root -> left  = insert(root->left, key, value);
+	if(key < root->key) 	 	 	root -> left  = insert(root->left, key, value);
 	else if(key > root->key) 	root -> right = insert(root->right, key, value);
-	else 						root -> value = value;
+	else 											root -> value = value;
 
 	// 应对三种情况的操作
-	if(isRed(root->left) && !isRed(root->left))		root = leftRotate(root);	
+	if(isRed(root->left) && !isRed(root->left))				root = leftRotate(root);	
 	if(isRed(root->left) && isRed(root->left->left))	root = rightRotate(root);
-	if(isRed(root->left) && isRed(root->right))		flipColor(root);
+	if(isRed(root->left) && isRed(root->right))							 flipColor(root);
 
 	root -> N = size(root->left) + size(root->right) + 1;
 	return root;
 }
+
 ```
 
 ---
