@@ -19,9 +19,6 @@ widget:
     links: 'Links'
     tag_cloud: 'Tag Cloud'
     catalogue: 'Catalogue'
-    subscribe_email: 'Subscribe to Updates'
-    subscribe: 'Subscribe'
-    adsense: 'Advertisement'
 article:
     more: 'Read More'
     comments: 'Comments'
@@ -34,11 +31,8 @@ donate:
     wechat: 'Wechat'
     paypal: 'Paypal'
     patreon: 'Patreon'
-    buymeacoffee: 'Buy me a coffee'
 plugin:
     backtotop: 'Back to Top'
-    visit: '%s visits'
-    visitor: 'Visited by %s users'
 search:
     search: 'Search'
     hint: 'Type something...'

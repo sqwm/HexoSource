@@ -13,7 +13,7 @@
 }
 
 .ins-section .ins-section-header {
-    color: #9a9a9a;
+    color: 508cef;
     border-bottom: 1px solid #e2e2e2;
 }
 
@@ -49,7 +49,7 @@
 
 .ins-section .ins-search-item:hover, .ins-section .ins-search-item.active {
     color: #fff;
-    background: #3273dc;
+    background: #24C1B3;
 }
 
 .ins-section .ins-search-item:hover .ins-slug, .ins-section .ins-search-item.active .ins-slug, .ins-section .ins-search-item:hover .ins-search-preview, .ins-section .ins-search-item.active .ins-search-preview {
