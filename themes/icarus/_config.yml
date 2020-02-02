@@ -67,7 +67,7 @@ search:
 comment:
       type: gitalk
       owner: YHCClin
-      repo: git@github.com:YHCClin/gitalksource.git
+      repo: YHCClin.github.io
       client_id: bc0b976990fb607ceea0
       client_secret: 795a99dbb1a7696cb42c4748126da7b78f242cf6
       admin: YHCClin
