@@ -65,15 +65,21 @@ search:
 # Comment plugin settings
 # http://ppoffice.github.io/hexo-theme-icarus/categories/Configuration/Comment-Plugins
 comment:
+      type: gitalk
+      owner: YHCClin
+      repo: git@github.com:YHCClin/gitalksource.git
+      client_id: bc0b976990fb607ceea0
+      client_secret: 795a99dbb1a7696cb42c4748126da7b78f242cf6
+      admin: YHCClin
     # Name of the comment plugin
-     type: valine
-     app_id: 'oR2IQXqpGEFy4GHNDgdmfSMR-gzGzoHsz'
-     app_key: 'hwYfVGzICBlXGiokUXaNqJsx'
-     notify: true
-     verify: true
-     avatar: 'retro'
-     visitor: true
-     placeholder: Type something slowly...
+    # type: valine
+    # app_id: 'oR2IQXqpGEFy4GHNDgdmfSMR-gzGzoHsz'
+    # app_key: 'hwYfVGzICBlXGiokUXaNqJsx'
+    # notify: true
+    # verify: true
+    # avatar: 'retro'
+    # visitor: true
+    # placeholder: Type something slowly...
     # type: disqus
     # shortname: ccyhweb 
 # Donation entries
