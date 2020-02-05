@@ -134,9 +134,9 @@ widgets:
         # Where should the widget be placed, left or right
         position: left
         # Author name to be shown in the profile widget
-        author: lyh
+        author: Linyuhang
         # Title of the author to be shown in the profile widget
-        author_title: 人在蒙古·刚下航母
+        author_title: 别想一下造出大海，必须先由小河川开始
         # Author's current location to be shown in the profile widget
         location: Fujian·China
         # Path or URL to the avatar to be shown in the profile widget
@@ -284,9 +284,9 @@ copyright:
     # img: http://ostu98x74.bkt.clouddn.com/copyright/copyright.png #版权信息图片
     site: http://www.inicb.com  #版权信息所属网址
     siteName: CODEHUB #版权信息网站名字
-    siteAuthor: 'lyh' #版权归属人
+    siteAuthor: 'Linyuhang' #版权归属人
 
 tidio:
-    enable: true
+    enable: false
     key: ui3pfxbwv0bfvkvxwibyaejafrndrrqm
 
