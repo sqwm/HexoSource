@@ -67,7 +67,7 @@ comments: true
     </style>
         <div class="link_card">
             <div class="card_img">
-                <img src="./avatar.png" style="width;55px;height:55px;" ></img>
+                <img src="https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/avatar.png" style="width;55px;height:55px;" ></img>
             </div>
             <div class = "link_content">
                 <div class="title"><a href="https://guoshizhan.github.io/" >Java Developer</a></div>
@@ -76,7 +76,7 @@ comments: true
         </div>
         <div class="link_card">
             <div class="card_img">
-                <img src="./avatar.png" style="width;55px;height:55px;" ></img>
+                <img src="https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/avatar.png" style="width;55px;height:55px;" ></img>
             </div>
             <div class = "link_content">
                 <div class="title"><a href="https://guoshizhan.github.io/" >Java Developer</a></div>
