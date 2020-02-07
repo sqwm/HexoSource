@@ -15,7 +15,6 @@ comments: true
 * 站点类型
 
 ---
-
 <html>
     <style>
         .link_card {
@@ -41,7 +40,6 @@ comments: true
             padding: 7px;
             font-size: 13px;
         }
-        
         .title{
             color: #91CDAC;
             font-weight: bold;
@@ -67,7 +65,6 @@ comments: true
             padding-top: 10px;
         }
     </style>
-    <body>
         <div class="link_card">
             <div class="card_img">
                 <img src="./avatar.png" style="width;55px;height:55px;" ></img>
@@ -86,8 +83,6 @@ comments: true
                 <div class="description">Java 后端 / 生活记录 / 教程 / 学习</div>
             </div>
         </div>
-    </body>
-
 </html>
 
 
