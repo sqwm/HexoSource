@@ -28,7 +28,7 @@ navbar:
         分类: /categories
         标签: /tags
         留言板: "https://www.ccyh.xyz/2019/02/02/Messagebd/"
-        友情链接: /links/index.html
+        友情链接: "https://www.ccyh.xyz/links/index.html"
         CSDN: "https://blog.csdn.net/Marvine"
         
     # Navigation bar links to be shown on the right
