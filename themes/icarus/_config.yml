@@ -27,8 +27,9 @@ navbar:
         归档: /archives
         分类: /categories
         标签: /tags
-        留言板: "https://www.ccyh.xyz/messagebd/index.html"
-        友情链接: "https://www.ccyh.xyz/photos/index.html"
+        留言: "https://www.ccyh.xyz/messagebd/index.html"
+        友情の链接: "https://www.ccyh.xyz/photos/index.html"
+        MyLeetCode: "https://leetcode-cn.com/u/ccyh/"
         CSDN: "https://blog.csdn.net/Marvine"
         
     # Navigation bar links to be shown on the right
