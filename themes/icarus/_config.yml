@@ -27,8 +27,8 @@ navbar:
         归档: /archives
         分类: /categories
         标签: /tags
-        留言板: /messagebd/index.html
-        友情链接: /photos/index.html
+        留言板: "https://www.ccyh.xyz/messagebd/index.html"
+        友情链接: "https://www.ccyh.xyz/photos/index.html"
         CSDN: "https://blog.csdn.net/Marvine"
         
     # Navigation bar links to be shown on the right
