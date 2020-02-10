@@ -1,5 +1,5 @@
 ---
-title: 【闲疯帝】康威生命游戏的控制台简单实现
+title: 【闲疯帝】EasyX康威生命游戏的简单实现
 date: 2020-02-05 11:38:22
 tags: Borring
 categories: 闲疯帝
@@ -22,7 +22,7 @@ disqusId: ccyhweb
 可以把最初的细胞结构定义为种子，当所有在种子中的细胞同时被以上规则处理后，可以得到第一代细胞图。按规则继续处理当前的细胞图，可以得到下一代的细胞图，周而复始。`[From WikiPedia]`
 
 ---
-## 简单实现
+## 简单实现（采用EasyX绘图库）
 ---
 ```c++
 #include <iostream>
@@ -31,35 +31,39 @@ disqusId: ccyhweb
 #include <stdio.h>
 #include <wchar.h>
 #include <windows.h>
+#include <graphics.h>
+#include <conio.h>
+#include <fstream>
+#include <iomanip>
 #define N 30
 using namespace std;
 
 /*
 	康威生命游戏的c++简单实现
  */
-vector<vector<char>> board(N,vector<char>(N,' '));
+vector<vector<char>> board(N, vector<char>(N, ' '));
 
 /*
-	清屏函数：若使用system("cls")会出现闪屏，因为该函数太慢了	
+	清屏函数：若使用system("cls")会出现闪屏，因为该函数太慢了
 	由于数据量不大这里采用移动光标实现屏幕部分涂改，也可采用双缓冲机制(自行google)
  */
-void clearScreen(){    
-    HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
-    COORD coordScreen = { 0, 0 };
-    SetConsoleCursorPosition( hConsole, coordScreen );
+void clearScreen() {
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+	COORD coordScreen = { 0, 0 };
+	SetConsoleCursorPosition(hConsole, coordScreen);
 }
 
 
 // 判断周围生命个数
-int direct[8][2] = {{0,1},{0,-1},{1,0},{-1,0},{-1,1},{1,-1},{-1,-1},{1,1}};
-int countLiveFunc(vector<vector<char>>& board,int x,int y) {
+int direct[8][2] = { {0,1},{0,-1},{1,0},{-1,0},{-1,1},{1,-1},{-1,-1},{1,1} };
+int countLiveFunc(vector<vector<char>>& board, int x, int y) {
 	int count = 0;
-	int nx,ny;
-	for(int k = 0;k < 8;k++)
+	int nx, ny;
+	for (int k = 0; k < 8; k++)
 	{
 		nx = x + direct[k][0];
 		ny = y + direct[k][1];
-		if(nx>=0 && nx<N && ny>=0 && ny<N && board[nx][ny]=='X')
+		if (nx >= 0 && nx < N && ny >= 0 && ny < N && board[nx][ny] == 'X')
 		{
 			count++;
 		}
@@ -67,59 +71,57 @@ int countLiveFunc(vector<vector<char>>& board,int x,int y) {
 	return count;
 }
 // 刷新函数
-void fresh(vector<vector<char>> &board){
+void fresh(vector<vector<char>> &board) {
 	int n = board.size();
 	vector<vector<char>> newBoard(board);
-	for(int i = 0;i < n;i++)
+	for (int i = 0; i < n; i++)
 	{
-		for(int j = 0;j < n;j++)
+		for (int j = 0; j < n; j++)
 		{
-			if(board[i][j]=='X')
+			if (board[i][j] == 'X')
 			{
-				int countLive = countLiveFunc(board,i,j);
-				if(countLive<2) newBoard[i][j]=' ';
-				else if(countLive==2 || countLive==3) continue;
-				else if(countLive>3) newBoard[i][j]=' ';
+				int countLive = countLiveFunc(board, i, j);
+				if (countLive < 2) newBoard[i][j] = ' ';
+				else if (countLive == 2 || countLive == 3) continue;
+				else if (countLive > 3) newBoard[i][j] = ' ';
 			}
 			else
 			{
-				int countLive = countLiveFunc(board,i,j);
-				if(countLive==3) newBoard[i][j]='X';
+				int countLive = countLiveFunc(board, i, j);
+				if (countLive == 3) newBoard[i][j] = 'X';
 			}
 		}
 	}
 	board = newBoard;
 }
 
-void printBoard(){
-	while(true){
-		cout << '\n';
-		cout << "||============================================================||"<<endl;
-		cout << "||                   ||   GAME OF LIFE  ||                    ||"<<endl; 
-		cout << "||============================================================||"<<endl;
-		for(auto i : board){
-			cout << "||";
-			for(auto j : i)
-				printf("%c ",j);
-			cout << "||";
-			cout << endl;
+void printBoard() {
+	initgraph(700, 600); // 初始化窗口
+	setbkcolor(WHITE);
+	setfillcolor(GREEN);
+	setlinecolor(BLACK);
+	while (true) {
+		int x = 0;
+		int y = 0;
+		BeginBatchDraw();	// 开始绘图，下面绘制的图形暂时不会显示出来
+		for (auto v : board)
+		{
+			for (auto i : v)
+			{
+				if (i == ' ') rectangle(x, y, x + 20, y + 20);
+				else fillrectangle(x, y, x + 20, y + 20);
+				x = (x + 20) % 600;
+				if (x == 0) y += 20;
+			}
 		}
-		cout << "||============================================================||"<<endl;
-		cout << "||At each step in time, the following transitions occur:      ||"<<endl;
-		cout << "||                                                            ||"<<endl;
-		cout << "||1. Any live cell with fewer than two live neighbours dies,  ||"<<endl;
-		cout << "||   as if by underpopulation.                                ||"<<endl;
-		cout << "||2. Any live cell with two or three live neighbours lives on ||"<<endl;
-		cout << "||   to the next generation.                                  ||"<<endl;
-		cout << "||3. Any live cell with more than three live neighbours dies, ||"<<endl;
-		cout << "||   as if by overpopulation.                                 ||"<<endl;
-		cout << "||4. Any dead cell with exactly three live neighbours becomes ||"<<endl;
-		cout << "||   a live cell, as if by reproduction.                      ||"<<endl;
-		cout << "||============================================================||"<<endl;
-		Sleep(200);
-		clearScreen();
+		FlushBatchDraw(); // 显示之前绘制的图形
+		Sleep(300);
+		cleardevice();	// 清屏
 		fresh(board);
 	}
+	EndBatchDraw();
+	getchar();
+	closegraph();
 }
 
 int main()
@@ -164,6 +166,7 @@ int main()
 	return 0;
 }
 
+
 ```
 
 ---
@@ -171,6 +174,6 @@ int main()
 ---
 
 <center>
-![脉冲星](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/LifeGame/LifeGame.gif)
+![脉冲星](https://hexoblog-1257022783.cos.ap-chengdu.myqcloud.com/LifeGame/gamegui.gif)
 
 </center>
